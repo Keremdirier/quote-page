@@ -1,0 +1,10 @@
+{
+  "name": "random-quote-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small quote generator used for a GitHub Actions CI lab.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test"
+  }
+}
