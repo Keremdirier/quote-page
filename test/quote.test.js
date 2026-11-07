@@ -3,7 +3,7 @@ const assert = require("node:assert/strict");
 const { quotes, getRandomQuote } = require("../src/quote.js");
 
 test("the quote collection contains at least four entries", () => {
-  assert.ok(quotes.length >= 4);
+  assert.ok(quotes.length >= 100);
 });
 
 test("selects the first quote when random value is zero", () => {
