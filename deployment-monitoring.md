@@ -18,3 +18,21 @@ Build and tests must pass.
 
 
 The application does not require a backend server or database.
+
+# Monitoring and Feedback Signals
+
+The following can be monitored:
+
+Website up/down — Can we access our website?
+
+Page load speed — Are pages loading slowly?
+
+JavaScript errors — Are there any errors in the application?
+
+CI pipeline — Are workflows succeeding or failing?
+
+Automated tests — Are there any issues after code changes?
+
+User feedback — Are users suggesting improvements or reporting bugs?
+
+If any issues are found, they should be looked into and resolved before the next update.
