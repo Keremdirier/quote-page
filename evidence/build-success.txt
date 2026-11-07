@@ -1,0 +1,5 @@
+
+> random-quote-generator@1.0.0 build
+> node scripts/build.js
+
+Build check passed: required files and page title are present.

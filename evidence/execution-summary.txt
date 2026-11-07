@@ -1,0 +1,3 @@
+Build exit code: 0
+Intentional broken-test exit code (expected non-zero): 1
+Corrected test-suite exit code: 0
