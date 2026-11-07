@@ -23,16 +23,16 @@ The application does not require a backend server or database.
 
 The following can be monitored:
 
-Website up/down — Can we access our website?
+Website up/down     Can we access our website?
 
-Page load speed — Are pages loading slowly?
+Page load speed     Are pages loading slowly?
 
-JavaScript errors — Are there any errors in the application?
+JavaScript errors   Are there any errors in the application?
 
-CI pipeline — Are workflows succeeding or failing?
+CI pipeline    Are workflows succeeding or failing?
 
-Automated tests — Are there any issues after code changes?
+Automated tests   Are there any issues after code changes?
 
-User feedback — Are users suggesting improvements or reporting bugs?
+User feedback    Are users suggesting improvements or reporting bugs?
 
 If any issues are found, they should be looked into and resolved before the next update.
