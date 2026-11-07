@@ -1,12 +1,20 @@
-# Deployments and Infrastructure Assumptions
+# Deployments & Infrastructure Assumptions
 
-The Random Quote Generator is a application that I built using HTML, CSS, and JavaScript.
 
-- The source code will be managed through GitHub.
-- GitHub Actions will be used for continuous integration.
-- Node.js v20 will be used to execute build and test commands.
-- npm will be used to install dependencies.
-- GitHub Pages could be used to host the application.
-- Build and test pipeline has to be successful before deployment.
+We have built an application called the Random Quote Generator using HTML, CSS and JavaScript.
 
-The application does not need any backend server or database.
+
+The source code will be stored on a GitHub repository.
+
+GitHub Actions will be used for CI (continuous integration).
+
+Node.js v20 will be used to run build and test commands.
+
+npm will be utilised to install our dependencies.
+
+The application can be deployed using GitHub pages.
+
+Build and tests must pass.
+
+
+The application does not require a backend server or database.
