@@ -1,21 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A simple random quote generator.">
-  <title>Random Quote Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Random Quote Page</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
-  <main class="card">
-    <p class="eyebrow">A MOMENT OF INSPIRATION</p>
-    <h1>Random Quote Generator</h1>
-    <blockquote id="quote">Click the button to discover a quote.</blockquote>
-    <p id="author" class="author">— Unknown</p>
-    <button id="new-quote" type="button">New quote</button>
-    <p class="hint" id="status" aria-live="polite"></p>
+  <main>
+    <h1>Random Quote</h1>
+    <blockquote>
+      <p id="quote"></p>
+      <footer id="author"></footer>
+    </blockquote>
+    <div class="buttons">
+      <button id="new-quote">New quote</button>
+      <button id="copy-quote">Copy</button>
+      <button id="fav-quote">Save to favourites</button>
+    </div>
+    <p id="message" aria-live="polite"></p>
+
+    <h2>Favourites</h2>
+    <ul id="fav-list"></ul>
+    <p id="fav-empty">No favourites yet.</p>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
