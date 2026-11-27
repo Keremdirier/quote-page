@@ -9,7 +9,7 @@ for (const file of requiredFiles) {
   }
 }
 const html = fs.readFileSync("index.html", "utf8");
-if (!html.includes("<title>Random Quote Generator</title>")) {
+if (!html.includes("<title>Random Quote Page</title>")) {
   console.error("Build failed: page title is missing.");
   process.exit(1);
 }
