@@ -2,8 +2,9 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const { quotes, getRandomQuote } = require("../src/quote.js");
 
-test("the quote collection contains at least four entries", () => {
-  assert.ok(quotes.length >= 4);
+test("the quote collection contains at least 20 entries with authors", () => {
+  assert.ok(quotes.length >= 20);
+  assert.ok(quotes.every((q) => q.text && q.author));
 });
 
 test("selects the first quote when random value is zero", () => {
