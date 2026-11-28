@@ -36,11 +36,21 @@ button:focus-visible { outline: 3px solid #edf2f4; outline-offset: 2px; }
 
 #message { min-height: 1.4em; color: #a9b4c2; }
 
-#fav-list { padding-left: 20px; }
-#fav-list li { margin-bottom: 12px; }
-#fav-list button {
-  margin-left: 8px;
-  padding: 2px 8px;
-  font-size: 0.8rem;
+#fav-list { list-style: none; padding: 0; margin: 0; }
+#fav-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid #4a4d69;
+}
+.fav-text { margin: 0 0 4px; }
+.fav-author { color: #a9b4c2; font-style: italic; font-size: 0.9rem; }
+#fav-list button.remove-btn {
+  margin-left: 0;
+  flex-shrink: 0;
+  padding: 6px 12px;
+  font-size: 0.9rem;
 }
 #fav-empty { color: #a9b4c2; }
