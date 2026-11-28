@@ -83,15 +83,29 @@ function renderFavourites() {
   favEmpty.style.display = favourites.length ? "none" : "block";
   favourites.forEach(function (f) {
     var li = document.createElement("li");
-    li.textContent = '"' + f.text + '" - ' + f.author;
+
+    var info = document.createElement("div");
+    var text = document.createElement("p");
+    text.className = "fav-text";
+    text.textContent = '"' + f.text + '"';
+    var author = document.createElement("span");
+    author.className = "fav-author";
+    author.textContent = "- " + f.author;
+    info.appendChild(text);
+    info.appendChild(author);
+
     var remove = document.createElement("button");
+    remove.className = "remove-btn";
     remove.textContent = "Remove";
+    remove.setAttribute("aria-label", "Remove quote by " + f.author + " from favourites");
     remove.addEventListener("click", function () {
       favourites = favourites.filter(function (x) { return x.text !== f.text; });
       saveFavourites();
       updateFavButton();
       renderFavourites();
     });
+
+    li.appendChild(info);
     li.appendChild(remove);
     favList.appendChild(li);
   });
