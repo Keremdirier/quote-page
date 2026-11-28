@@ -27,3 +27,10 @@ Acceptance criteria:
 Acceptance criteria:
 - A quote can be added to and removed from the favourites list.
 - Favourites are still there after reloading the page.
+
+## Keeping and removing favourites
+As a returning visitor, I want my saved quotes to still be there after I refresh, and to remove ones I no longer want, **so that** my list stays useful.
+
+Acceptance criteria:
+- After a reload the favourites list is unchanged.
+- Pressing "Remove" deletes a quote from the list.
