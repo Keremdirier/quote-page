@@ -3,6 +3,8 @@ Random Quote Page
 A small web page that shows an inspiring quote at the press of a button.
 CMPS 510 Final Individual Project
 
+live link: https://keremdirier.github.io/quote-page/
+
 
 <img width="1173" height="677" alt="quotepage ss" src="https://github.com/user-attachments/assets/4128cda6-79fd-477c-9d44-b63e3b7346bd" />
 
